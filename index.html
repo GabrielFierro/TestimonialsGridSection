@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/tailwind.css" rel="stylesheet" />
+    <link href="public/css/style.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | [Challenge Testimonials Grid Section]</title>
+  </head>
+  <body class="bg-indigo-100">
+    <div class="w-full h-screen">
+      <div class="flex flex-col sm:grid sm:gap-4 sm:grid-cols-4 sm:grid-flow-col ml-2 sm:ml-28 pt-4 px-8">
+        <!-- Comienzo de la primer componente de color violet -->
+        <div class="bg-primary-color-violet sm:order-1 sm:row-span-2 sm:col-span-2 rounded-lg shadow-xl mb-5 sm:mb-0">
+          <div class="mx-6 my-8">
+            <img
+              class="w-8 sm:w-9 h-8 sm:h-9 rounded-full border-2 ml-1 sm:ml-3 sm:-mt-1"
+              src="/images/image-daniel.jpg"
+            />
+            <h1 class="text-white text-xs sm:text-sm pl-12 sm:pl-16 -mt-8 sm:-mt-9">Daniel Clifford</h1>
+            <h2 class="text-white text-opacity-50 text-xs sm:text-sm pl-12 sm:pl-16">Verified Graduate</h2>
+          </div>
+          <img class="absolute pt-3 top-1 sm:top-1 md:top-20 lg:top-1 left-24 sm:left-96 md:left-64 lg:left-96 pl-28 w-40 sm:w-auto" src="/images/bg-pattern-quotation.svg">
+          <div class="-mt-6 relative">
+            <p class="text-white text-xl font-bold px-7 sm:px-9">
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company I joined. I honestly feel
+              I got every penny’s worth.
+            </p>
+            <br />
+            <p class="text-white text-opacity-50 font-medium px-7 sm:px-9 mb-3">
+             “ I was an EMT for many years before I joined the bootcamp. I’ve
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              The next 12 weeks was the best - and most grueling - time of my
+              life. Since completing the course, I’ve successfully switched
+              careers, working as a Software Engineer at a VR startup. ”
+            </p>
+          </div>
+        </div>
+        <!-- Fin de la primer componente violet -->
+
+        <!-- Comienzo de la segunda componente de color gray-blue -->
+        <div class="bg-primary-color-grayish-blue sm:order-4 sm:row-span-2 sm:col-span-1 rounded-lg shadow-xl pb-4 mb-5 sm:mb-0">
+          <div class="mx-8 my-10">
+            <img
+              class="w-8 sm:w-9 h-8 sm:h-9 rounded-full border-2 -ml-1 -mt-2 sm:-mt-4"
+              src="/images/image-jonathan.jpg"
+            />
+            <h1 class="text-white text-xs sm:text-sm pl-11 sm:pl-12 -mt-8 sm:-mt-9">Jonathan Walters</h1>
+            <h2 class="text-white text-xs sm:text-sm text-opacity-50 pl-11 sm:pl-12">Verified Graduate</h2>
+          </div>
+          <div class="-mt-8 mx-1 sm:mx-2">
+            <p class="text-white text-lg sm:text-xl font-semibold pt-1 px-6 sm:pl-5 sm:pr-8">
+              The team was very supportive and kept me motivated
+            </p>
+            <br />
+            <p class="text-white text-opacity-50 font-medium pl-6 sm:pl-5 pr-4 -mt-1 sm:mt-1">
+              “ I started as a total newbie with virtually no coding skills. I
+              now work as a mobile engineer for a big company. This was one of
+              the best investments I’ve made in myself. ”
+            </p>
+          </div>
+        </div>
+        <!-- Fin de la segunda componente gray-blue -->
+
+        <!-- Comienzo de la tercer componente de color white -->
+        <div class="bg-primary-color-white sm:order-3 sm:row-span-2 sm:col-span-1 rounded-lg shadow-xl mb-5 sm:mb-0">
+          <div class="mx-8 my-10 sm:my-8">
+            <img
+              class="w-8 sm:w-9 h-8 sm:h-9 rounded-full border-2 -mt-3 -ml-1 sm:-ml-0"
+              src="/images/image-jeanette.jpg"
+            />
+            <h1 class="primary-color-blackish-blue text-xs sm:text-sm pl-11 -mt-8 sm:-mt-9">Jeanette Harmon</h1>
+            <h2 class="primary-color-blackish-blue-opacity text-xs sm:text-sm pl-11">Verified Graduate</h2>
+          </div>
+          <div class="-mt-4 ml-5 mr-11">
+            <p class="primary-color-blackish-blue text-xl font-bold px-2 sm:px-3 -mt-6 sm:-mt-5">
+              An overall wonderful and rewarding experience
+            </p>
+            <br />
+            <p class="primary-color-blackish-blue-opacity font-medium pl-2 sm:pl-3 mb-6 -mt-3">
+              “ Thank you for the wonderful experience! I now have a job I
+              really enjoy, and make a good living while doing something I love.
+              ”
+            </p>
+          </div>
+        </div>
+        <!-- Fin de la tercer componente de color white -->
+
+        <!-- Comienzo de la cuarta componente de color blackish-blue -->
+        <div
+          class="bg-primary-color-blackish-blue sm:order-3 sm:row-span-2 sm:col-span-2 col-span-2 rounded-lg shadow-xl mb-5 sm:mb-0"
+        >
+          <div class="mx-8 my-8">
+            <img
+              class="w-8 sm:w-9 h-8 sm:h-9 rounded-full border-2 sm:-mt-3"
+              src="/images/image-patrick.jpg"
+            />
+            <h1 class="text-white text-xs sm:text-sm pl-12 sm:pl-14 -mt-8 sm:-mt-9">Patrick Abrams</h1>
+            <h2 class="text-white text-xs sm:text-sm text-opacity-50 pl-12 sm:pl-14">Verified Graduate</h2>
+          </div>
+          <div class="px-3 -mt-3 mb-5 sm:mb-0">
+            <p class="text-white text-lg font-semibold px-4 -mt-3 sm:-mt-6">
+              Awesome teaching support from TAs who did the bootcamp themselves.
+              Getting guidance from them and learning from their experiences was
+              easy.
+            </p>
+            <br />
+            <p class="text-white text-opacity-50 font-medium px-4 mt-1 sm:-mt-3">
+              “ The staff seem genuinely concerned about my progress which I
+              find really refreshing. The program gave me the confidence
+              necessary to be able to go out in the world and present myself as
+              a capable junior developer. The standard is above the rest. You
+              will get the personal attention you need from an incredible
+              community of smart and amazing people. ”
+            </p>
+          </div>
+        </div>
+        <!-- Fin de la cuarta componente de color blackish-blue -->
+
+        <!-- Comienzo de la quinta componente de color white -->
+        <div class="bg-primary-color-white sm:order-5 sm:row-span-4 sm:col-span-2 rounded-lg shadow-xl mb-5 sm:mb-0">
+          <div class="mx-8 my-8">
+            <img
+              class="w-8 sm:w-9 h-8 sm:h-9 rounded-full border-2 sm:-mt-3 -ml-1 sm:-ml-0"
+              src="/images/image-kira.jpg"
+            />
+            <h1 class="primary-color-blackish-blue text-xs sm:text-sm pl-10 sm:pl-12 -mt-8 sm:-mt-9">Kira Whittle</h1>
+            <h2 class="primary-color-blackish-blue-opacity text-xs sm:text-sm pl-10 sm:pl-12">Verified Graduate</h2>
+          </div>
+          <div class="px-3 sm:px-5 sm:-mt-4 mb-5 sm:mb-0">
+            <p class="primary-color-blackish-blue text-xl font-semibold px-4 sm:px-4 -mt-2 sm:-mt-0">
+              Such a life-changing experience. Highly recommended!
+            </p>
+            <br />
+            <p class="primary-color-blackish-blue-opacity font-medium px-4 sm:px-5 mt-2">
+              “ Before joining the bootcamp, I’ve never written a line of code.
+              I needed some structure from professionals who can help me learn
+              programming step by step. I was encouraged to enroll by a former
+              student of theirs who can only say wonderful things about the
+              program. The entire curriculum and staff did not disappoint. They
+              were very hands-on and I never had to wait long for assistance.
+              The agile team project, in particular, was outstanding. It took my
+              learning to the next level in a way that no tutorial could ever
+              have. In fact, I’ve often referred to it during interviews as an
+              example of my developent experience. It certainly helped me land a
+              job as a full-stack developer after receiving multiple offers.
+              100% recommend! ”
+            </p>
+          </div>
+        </div>
+        <!-- Fin de la quinta componente de color white -->
+      </div>
+    </div>
+  </body>
+</html>
