@@ -39,3 +39,10 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+h1{
+    font-weight: 600;
+}
+
+h2,p{
+    font-weight: 500;
+}
